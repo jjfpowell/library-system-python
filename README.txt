@@ -1,0 +1,2 @@
+This is my Library Checkout system. 
+Things to note: Adding Books to the database and not have at least one occurrence within the log file causes weeding not to operate properly. The program is all run from menu.py which launches the GUI and all functionality can be accessed from there. Many of my functions are quite generic allowing them to be defined within database.py and are used across multiple of the modules. When a book is taken out of the library it is marked as 'Not Returned' within the log file.
